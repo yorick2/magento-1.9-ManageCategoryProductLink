@@ -1,0 +1,8 @@
+<config>
+    <modules>
+        <PaulMillband_ManageCategoryProductLink>
+            <active>true</active>
+            <codePool>community</codePool>
+        </PaulMillband_ManageCategoryProductLink>
+    </modules>
+</config>

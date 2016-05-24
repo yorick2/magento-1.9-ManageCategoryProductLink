@@ -1,0 +1,54 @@
+<?xml version="1.0"?>
+
+<config>
+    <modules>
+        <PaulMillband_ManageCategoryProductLink>
+            <version>0.1.0</version>
+        </PaulMillband_ManageCategoryProductLink>
+    </modules>
+    <global>
+        <blocks>
+            <paulmillband_ManageCategoryProductLink>
+                <class>PaulMillband_ManageCategoryProductLink_Block</class>
+            </paulmillband_ManageCategoryProductLink>
+            <adminhtml>
+                <rewrite>
+                    <catalog_category_tab_product>PaulMillband_ManageCategoryProductLink_Block_Adminhtml_Category_Tab_Product</catalog_category_tab_product>
+                </rewrite>
+            </adminhtml>
+        </blocks>
+        <helpers>
+            <paulmillband_ManageCategoryProductLink>
+                <class>PaulMillband_ManageCategoryProductLink_Helper</class>
+            </paulmillband_ManageCategoryProductLink>
+        </helpers>
+        <models>
+            <paulmillband_ManageCategoryProductLink>
+                <class>PaulMillband_ManageCategoryProductLink_Model</class>
+            </paulmillband_ManageCategoryProductLink>
+        </models>
+    </global>
+
+    <!-- frontend layout updates -->
+    <frontend>
+        <layout>
+            <updates>
+                <paulmillband_ManageCategoryProductLink>
+                    <file>paulmillband/ManageCategoryProductLink.xml</file>
+                </paulmillband_ManageCategoryProductLink>
+            </updates>
+        </layout>
+    </frontend>
+
+    <!-- adminhtml layout updates -->
+    <adminhtml>
+        <layout>
+            <updates>
+                <paulmillband_ManageCategoryProductLink>
+                    <file>paulmillband/ManageCategoryProductLink.xml</file>
+                </paulmillband_ManageCategoryProductLink>
+            </updates>
+        </layout>
+    </adminhtml>
+    
+</config>
